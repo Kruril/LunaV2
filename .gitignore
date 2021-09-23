@@ -1,0 +1,13 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.idea
+lambdas/create_event/credentials.json
+lambdas/create_event/scratch_2.py
+lambdas/create_event/token.pickle
