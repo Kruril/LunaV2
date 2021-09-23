@@ -13,4 +13,4 @@ L'application est déployé sur les services d'Amazon Web Services
 
 
 L'application utilise les services de Google concernant la connection à l'agenda.
-Il faut alors ajouter un fichier credentials.json dans le dossier [lambdas/create_event](https://github.com/Kruril/LunaV2/lambdas/create_event)
+Il faut alors ajouter un fichier credentials.json dans le dossier [lambdas/create_event](https://github.com/Kruril/LunaV2/tree/main/lambdas/create_event)
