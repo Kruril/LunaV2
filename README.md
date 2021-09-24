@@ -2,7 +2,7 @@
 ![Moon](/assets/luna.ico)
 
 Le projet a pour but d'ajouter dans un calendrier les phases lunaire.
-Pour ce faire, il a va rechercher les informations via l'API : https://www.icalendar37.net/lunar/api/ .
+Pour ce faire, il va rechercher les informations via l'API : https://www.icalendar37.net/lunar/api/ .
 
 
 L'application est déployé sur les services d'Amazon Web Services
