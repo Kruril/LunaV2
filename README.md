@@ -6,11 +6,22 @@ Pour ce faire, il va rechercher les informations via l'API : https://www.icalend
 
 
 L'application est déployé sur les services d'Amazon Web Services
-## Services AWS utilisés
+### Services AWS utilisés
 - AWS CloudFormation
 - AWS Lambda
 - AWS CloudWatch
+- AWS EventBridge
+- AWS S3
 
 
 L'application utilise les services de Google concernant la connection à l'agenda.
-Il faut alors ajouter un fichier credentials.json dans le dossier [lambdas/create_event](https://github.com/Kruril/LunaV2/tree/main/lambdas/create_event)
+Il faut alors ajouter un fichier credentials.json dans un bucket d'AWS S3
+
+### le fichier credentials.json contient :
+- token
+- refresh_token
+- token_uri
+- client_id
+- client_secret
+- scopes
+- expiry
